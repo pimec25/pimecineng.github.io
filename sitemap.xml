@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.pimecineng.com/</loc></url>
-  <url><loc>https://www.pimecineng.com/#services</loc></url>
-  <url><loc>https://www.pimecineng.com/#method</loc></url>
-  <url><loc>https://www.pimecineng.com/#results</loc></url>
-  <url><loc>https://www.pimecineng.com/#about</loc></url>
-  <url><loc>https://www.pimecineng.com/#contact</loc></url>
+  <url><loc>https://www.pimecineng.com/</loc><lastmod>2026-09-13</lastmod></url>
+  <url><loc>https://www.pimecineng.com/card/</loc></url>
 </urlset>
