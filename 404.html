@@ -19,8 +19,9 @@
         Any other unknown path falls through to the ordinary not-found message below.
       */
       (function () {
-        var base = "/pimec-client-portal";
+        var base = /^\/Client(?:\/|$)/.test(window.location.pathname) ? "/Client" : "/pimec-client-portal";
         var path = window.location.pathname;
+        if (/\/(?:_expo|assets)(?:\/|$)/.test(path)) return;
         if (path !== base && path.indexOf(base + "/") !== 0) return;
 
         fetch(base + "/index.html", { credentials: "same-origin" })
@@ -101,7 +102,7 @@
       <p>The link may be out of date or mistyped.</p>
       <div class="links">
         <a class="primary" href="/">Go to homepage</a>
-        <a class="secondary" href="/pimec-client-portal/">Client portal</a>
+        <a class="secondary" href="/Client/">Client portal</a>
       </div>
     </main>
   </body>
